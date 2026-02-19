@@ -4,13 +4,28 @@
 
 html,
 body {
-  height: 100%;
-  margin: 0;
+  margin: 20px;
   padding: 0;
-  background-color: #000;
-  overflow: hidden;
+  background-color: #fff;
+  color: #000;
+  font-family: serif;
+  text-align: justify;
 }
 
-canvas {
-  background-color: #000;
+
+.privacy_policy {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.privacy_policy .title {
+  text-align: center;
+}
+
+.privacy_policy .updated-date {
+  color: #888;
+}
+
+.privacy_policy .section-name {
+  text-decoration: underline;
 }
